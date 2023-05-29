@@ -26,7 +26,7 @@ public class MarketController {
     public List<SymbolVO> getSymbols() {
         List<SymbolVO> symbolVOS = new ArrayList<>();
 
-        for (String stock : indexConfig.getHs300()) {
+        for (String stock : indexConfig.getM2016()) {
             // 分割 /
             String base = stock.split("/")[0];
 

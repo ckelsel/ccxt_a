@@ -10,8 +10,9 @@ import java.util.List;
  * @author panda-team@jiasibode.com
  */
 @Configuration
-@ConfigurationProperties(prefix = "index")
+@ConfigurationProperties(prefix = "index.hs300")
 @Data
 public class IndexConfig {
-    private List<String> hs300;
+    private List<String> m2016;
+    private List<String> m2022;
 }
